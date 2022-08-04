@@ -1,3 +1,8 @@
+# JS ANIMATIONS
+
+## javascript animations
+
+```css
 * {
   margin: 0;
   padding: 0;
@@ -36,9 +41,11 @@ nav {
 }
 
 p {
-  opacity: 1;
+  font-size: 1.5rem;
+  opacity: 0;
   transition: opacity 0.75s ease-out 0.5s;
 }
 .fade {
-  opacity: 0;
+  opacity: 1;
 }
+```
